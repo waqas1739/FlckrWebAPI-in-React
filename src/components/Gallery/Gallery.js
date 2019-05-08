@@ -42,7 +42,7 @@ export default class Gallery extends Component {
         const {items, images, selectedImage} = this.state;
         return (
             <div className="gallery">
-                <h1 className="gallery__title">Flickr API Component</h1>
+                <h1 className="gallery__title">Flickr Web API React</h1>
                 <div className="gallery-thumbnails">
                     {this.state.items.length ?
                         this.state.items.map((item, index) =>
